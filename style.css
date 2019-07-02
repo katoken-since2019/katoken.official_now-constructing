@@ -1,0 +1,85 @@
+@charset "Shift_JIS";
+body {
+  width: 98%;
+  margin: auto;
+  font-family: "Quicksand"
+}
+
+p {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+ul {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+header {
+  background-color: #00ECFF;
+  color: white;
+  height: 67px;
+  top: 0px;
+  margin-top: 8px;
+}
+
+.header-logo {
+  font-size: 25px;
+  font-weight: bold;
+  float: left;
+  padding: 15px 40px;
+  text-shadow: 1px 2px 3px #999999;
+}
+
+main{
+  margin: 10px 10px;
+}
+
+main img {
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.main-border{
+  border-top: 2px solid #a9a9a9;
+}
+
+.contents-item {
+  margin: 40px 10% 20px;
+}
+.button {  
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
+  position: relative;
+  display: block;
+  height: 50px;/*高さ*/
+  width: 190px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 25px;/*文字のサイズ*/
+  line-height: 50px;/*高さと合わせる*/
+  background: #00ECFF;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}
+
+footer {
+  background-color: #2f5167;
+  color: white;
+  height: 50px;
+  margin-bottom: 8px;
+}
+
+.footer-logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Noto Sans JP";
+  float: left;
+  padding: 8px 40px;
+}
