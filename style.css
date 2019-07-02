@@ -1,4 +1,9 @@
 @charset "Shift_JIS";
+@media(max-width: 670px) {
+  * {
+    text-align: center;
+  }
+}
 body {
   width: 98%;
   margin: auto;
