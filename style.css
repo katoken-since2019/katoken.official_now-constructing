@@ -2,7 +2,7 @@
 body {
   width: 98%;
   margin: auto;
-  font-family: "Quicksand"
+  font-family: Quicksand, 'Noto Sans JP', sans-serif;
 }
 
 p {
@@ -44,6 +44,12 @@ main img {
 
 .main-border{
   border-top: 2px solid #a9a9a9;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  color: #a9a9a9;
 }
 
 .contents-item {
