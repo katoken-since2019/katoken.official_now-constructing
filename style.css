@@ -1,11 +1,4 @@
 @charset "Shift_JIS";
-@media(min-width: 1000px) {
-  .header-logo, .copyright {
-    display: inline-block;
-    float: left;
-  }
-}
-
 .header-logo, .copyright {
   display: block;
   float: none;
