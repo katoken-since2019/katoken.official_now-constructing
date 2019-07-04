@@ -1,8 +1,9 @@
 @charset "Shift_JIS";
 @media(max-width: 670px) {
-  * {
+  .header-logo, .footer-logo {
+    display: block;
+    float: none;
     text-align: center;
-    margin: auto;
   }
 }
 body {
@@ -63,7 +64,7 @@ h1 {
 .contents-item {
   margin: 40px 10% 20px;
 }
-.button {  
+.button {
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
