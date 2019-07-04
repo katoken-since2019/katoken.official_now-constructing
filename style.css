@@ -1,6 +1,6 @@
 @charset "Shift_JIS";
 @media(max-width: 670px) {
-  .header-logo, .footer-logo {
+  .header-logo, .copyright {
     display: block;
     float: none;
     text-align: center;
